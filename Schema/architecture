@@ -1,0 +1,31 @@
+users
+ - id
+ - login
+ - email
+ - password
+ - role_id
+ - created_at
+ - updated_at
+
+roles
+ - id
+ - status
+
+stores
+ - id
+ - name
+ - created_at
+ - updated_at
+
+products
+ - id
+ - parent_id (products.id) null
+ - store_id (stores.id) null
+ - category null
+ - product_name null
+ - data_expire null
+ - debit null
+ - credit null
+ - created_at
+ - updated_at
+
